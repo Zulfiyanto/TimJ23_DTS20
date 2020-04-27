@@ -1,0 +1,155 @@
+@media screen and (max-width: 1155px) {
+    .nav-link{
+        font-size: 13px;
+    }
+    
+    .top-wrapper{
+        flex-direction: column;
+    }
+
+    .container-top{
+        margin-top: 5vh;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .cover{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .cover img{
+        height: 70%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 60vh;
+
+    }
+    
+    .container h1 {
+        font-size: 20px;
+        padding: 20px 0px 5px 0px;
+    }
+
+    .column{
+        margin: 7px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .column:hover {
+        width: 70%;
+        height: 70%;
+    }
+
+    .column .nama {
+        width: 100%;
+        height: 20%;
+        font-size: 8px;
+    }
+
+    .join {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .checkbtn{
+        display: block;
+    }
+
+    .nav-links{
+       position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #dfe4ea;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        flex-direction: column;
+        transition: all .5s;
+    }
+
+    .nav-link{
+        font-size: 30px;
+    }
+
+    .login{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .nav-links li{
+        margin: 10px;
+        
+    }
+
+    #check:checked ~ .nav-links{
+        left: 0;
+    }
+
+
+    .top-wrapper{
+        height: 90vh;
+    }
+   .container-top h1{
+       font-size: 20px;
+   }
+
+   .container-top p{
+       font-size: 15px;
+   }
+    .cover img{
+        height: 50%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .content-mid{
+        flex-wrap: wrap;  
+    }
+    
+    .container h1 {
+        font-size: 18px;
+        padding: 20px 0px 5px 0px;
+    }
+
+    .column{
+        margin: 15px;
+        width: 20%;
+        height: 50%;
+        flex: auto;
+    }
+
+    .column:hover {
+        width: 30%;
+        height: 54%;
+    }
+
+    .column .nama {
+        width: 100%;
+        height: 20%;
+        font-size: 5px;
+    }
+
+    .column .detail{
+        font-size: 7px;
+    }
+
+    .join {
+        height: 65vh;
+    }
+
+    .join h1{
+        font-size: 20px;
+       
+        margin-bottom: -30px;
+    }
+
+
+
+}
+
